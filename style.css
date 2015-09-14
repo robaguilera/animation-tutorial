@@ -71,6 +71,7 @@ hr {
 	font-size: 1.6em;
 }
 
+/* Initial Values for join button */
 .join {
 	background: transparent;
 	font-size: 1.2em;
@@ -80,7 +81,7 @@ hr {
 	border: 2px solid #54AED9;
 	transition: 1s ease-out;
 }
-
+/* Hover Values for join button */
 .join:hover {
 	background: #54AED9;
 	border: none;
@@ -118,7 +119,6 @@ hr {
 
 }
 
-
 .email-field {
 	width: 98%;
 	margin-bottom: 1em;
@@ -142,6 +142,7 @@ hr {
 	transition: color .3s, transform 0.3s;
 }
 
+/* Animation Values for Email label that scales and translates upon focus of email input */
 .email-field:focus + label {
 	color: #333333;
 	transform: scale(0.8) translateY(-40px);
@@ -167,14 +168,12 @@ hr {
 	font-size: 1.2em;
 	font-weight: 300;
 	color: #FFFFFF;
-	
 	padding: 30px 50px;
 	overflow: hidden;
 	position: relative;
 }
 
-/*
-	Addtional content */
+/* CSS values for bottom button  */
 
 .content {
 	position: absolute;
@@ -183,21 +182,36 @@ hr {
 	width: 100%;
 }
 
+.keyframes {
+	margin: 5em 0;
+	position: relative;
+}
+.keyframes {
+	margin: 5em 0;
+	position: relative;
+}
+
+/* Positions initial text */
+
 .top {
 	top: 5px;
 }
 
+/* Upon hover moves initial text out of view */
 button:hover .top {
 	top: -100px;
 }
-
+/* Positions hidden text */
 .bottom {
 	top: 100px;
 }
 
+/* Moves hidden text into view */
 button:hover .bottom {
 	top: 15px;
 }
+
+/* Keyframe css and values for bottom boxes */
 
 .keyframes {
 	margin: 5em 0;
