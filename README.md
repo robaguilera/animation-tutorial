@@ -1,4 +1,4 @@
-# Animation Tutorial - Meetup #3 - Sept 12, 2015
+# Animation Tutorial - Meetup - Sept 12, 2015
 
 ##  Intro
 In this meetup we learned all about CSS animations.  
