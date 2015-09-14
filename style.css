@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F9F8F4;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+	color: #5C6A75;
+	font-weight: 500;
+}
+
+h3 {
+	color: #A4AEB3;
+	font-weight: 300;
+	padding: 10px 0;
+}
+
+button {
+	font-size: 1.3em;
+	border: none;
+	background-color: transparent;
+	outline: thin;
+	text-align: center;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+hr {
+	border: 1px solid #DDDDDD;
+}
+
+.modal {
+	width: 50%;
+	height: 100%;
+	margin: 4em auto;
+	border-radius: 8px;
+	border: 1px solid #DDDDDD;
+	background-color: #FEFEFE;
+}
+
+.modal-header {
+	padding: 10px 20px;
+	position: relative;
+}
+
+.modal-header i {
+	position: absolute;
+	top: 17px;
+	right: 25px;
+	font-size: 1.5em;
+	color: #CCCCCC;
+	cursor: pointer;
+	transition: transform .3s;
+}
+
+.modal-header i:hover {
+	transform: rotate(360deg);
+}
+
+.modal-body {
+	text-align: center;
+	padding-top: 2em;
+}
+
+.join i {
+	margin-right: .6em;
+	font-size: 1.6em;
+}
+
+.join {
+	background: transparent;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #54AED9;
+	padding: 15px 0px 15px 15px;
+	border: 2px solid #54AED9;
+	transition: 1s ease-out;
+}
+
+.join:hover {
+	background: #54AED9;
+	border: none;
+	color: #FFFFFF;
+	border: 2px solid #54AED9;
+}
+
+
+.inline-p {
+	display: inline-block;
+	padding-top: .2em;
+	vertical-align: top;
+}
+
+.disclaimer {
+	color: #BBBBBB;
+	margin: 1em;
+}
+
+.bold {
+	font-weight: 700;
+	padding-right: 50px;
+}
+
+.modal-footer {
+	padding: 20px 10px;
+	background-color: #E9ECEF;
+	border-top: 1px solid #DDDDDD;
+}
+
+.icon-wrapper label {
+	position: absolute;
+    left: 5px;
+    top: 15px;
+
+}
+
+
+.email-field {
+	width: 98%;
+	margin-bottom: 1em;
+	font-size: 1.3em;
+	height: 35px;
+	outline: thin;
+	padding: 5px;
+	border-radius: 5px;
+	border:1px solid #DDDDDD;
+	color: #333333;
+	padding-left: 15px;
+}
+
+.email-field:focus {
+	border: 1px solid #BBBBBB;
+}
+
+.form-label   {
+	color: #BBBBBB;
+	transform-origin: center left;
+	transition: color .3s, transform 0.3s;
+}
+
+.email-field:focus + label {
+	color: #333333;
+	transform: scale(0.8) translateY(-40px);
+}
+
+.icon-wrapper {
+	position: relative;
+	font-family: 'fontawesome';
+}
+
+.icon-wrapper:before {
+	position: absolute;
+	content: '\f003';
+	display: inline-block;
+	width: .3em;
+	top: 13px;
+	right: 28px;
+	font-size: 1.2em;
+}
+
+.button-action {
+	background: #F38777;
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #FFFFFF;
+	
+	padding: 30px 50px;
+	overflow: hidden;
+	position: relative;
+}
+
+/*
+	Addtional content */
+
+.content {
+	position: absolute;
+	transition: top .3s;
+	left: 0;
+	width: 100%;
+}
+
+.top {
+	top: 5px;
+}
+
+button:hover .top {
+	top: -100px;
+}
+
+.bottom {
+	top: 100px;
+}
+
+button:hover .bottom {
+	top: 15px;
+}
+
+.keyframes {
+	margin: 5em 0;
+	position: relative;
+}
+
+.box1 {
+	width: 200px;
+	height: 200px;
+	background: rgba(255,0,0,0.5);
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: rgba(0,0,255,0.5);
+    position: absolute;
+    top: 100px;
+    left: 90%;
+    margin-left: -100px;
+    animation: movingbox 5s infinite;
+}
+
+@keyframes movingbox {
+	0% {left: 90%;}
+	10% {left: 10%;}
+	100%{left: 90%;}
+}
+
+
+
+
+
